@@ -1,0 +1,3 @@
+- `npm install`
+- `cd server && touch .env`
+- add PORT=8080
