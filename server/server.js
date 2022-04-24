@@ -1,4 +1,3 @@
-
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
@@ -36,9 +35,9 @@ server.get('/heartbeat', (req, res) => {
 });
 
 // catching all URL errors and redirecting to home page in build file
-// server.get('*', function (req, res) {
-//     res.sendFile(__dirname + '/react-ui/build/index.html');
-// });
+server.get('*', function (req, res) {
+    res.sendFile(__dirname + '/react-ui/build/index.html');
+});
 
 server.listen(PORT, () => {
     console.log(`Server listening on ${PORT}`);

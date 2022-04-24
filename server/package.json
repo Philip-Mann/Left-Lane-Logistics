@@ -1,5 +1,5 @@
 {
-  "name": "react-node-template",
+  "name": "left-lane-loadboard",
   "version": "1.0.0",
   "description": "a starter react-node template for Philip",
   "main": "server.js",
