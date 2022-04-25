@@ -30,3 +30,10 @@ a:active {
     justify-content: space-between;
     min-height: 100vh;
 }
+
+/* Landing */
+
+.greeting-container {
+    display: flex;
+    justify-content: center;
+}
