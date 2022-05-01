@@ -1,13 +1,13 @@
+// npx sequelize-cli model:generate --name Loads --attributes company:string,origin:string,destination:string,equipment:string,weight:integer,f/p:string,date_posted:string,rate:integer,commodity:string,comments:text,factor:boolean,ref_num:string
+
 [
     {
-        "id" : "0",
         "company": "CH Robinson",
         "origin": "Golden, CO",
         "destination": "San Antonio, TX",
-        // "deadhead_miles" : 150,
         "total_miles": 941.1,
         "equipment": "Van",
-        "length": "53", // feet
+        "length": "53",
         "weight": "33000",
         "f/p": "Full",
         "date_posted": "2022-04-24T21:46:20.974Z",
@@ -18,14 +18,12 @@
         "reference_number": "217247"
     },
     {
-        "id" : "1",
         "company": "Landstar System",
         "origin": "Texarkana, AR",
         "destination": "Atlanta, GA",
-        // "deadhead_miles" : 150,
         "total_miles": 669.2,
         "equipment": "Van",
-        "length": "53", // feet
+        "length": "53",
         "weight": "40000",
         "f/p": "Full",
         "date_posted": "2022-04-24T22:13:36.512Z",
@@ -36,14 +34,12 @@
         "reference_number": "217248"
     },
     {
-        "id" : "2",
         "company": "Odyssey Logistics",
         "origin": "Texas City, TX",
         "destination": "Monaca, PA",
-        // "deadhead_miles" : 150,
         "total_miles": 1360.3,
         "equipment": "Tanker",
-        "length": "43", // feet
+        "length": "43",
         "weight": "45000",
         "f/p": "Full",
         "date_posted": "2022-04-24T22:24:21.970Z",
@@ -54,14 +50,12 @@
         "reference_number": "217249"
     },
     {
-        "id" : "3",
         "company": "Coyote Logistics",
         "origin": "City of Industry, CA",
         "destination": "Richmond, VA",
-        // "deadhead_miles" : 150,
         "total_miles": 2605.8,
         "equipment": "Reefer",
-        "length": "53", // feet
+        "length": "53",
         "weight": "41,000",
         "f/p": "Full",
         "date_posted": "2022-04-24T22:37:56.812Z",
@@ -72,14 +66,12 @@
         "reference_number": "217250"
     },
     {
-        "id" : "4",
         "company": "Total Quality Logistics",
         "origin": "Aurora, IL",
         "destination": "Newberry, SC",
-        // "deadhead_miles" : 150,
         "total_miles": 800,
         "equipment": "Reefer",
-        "length": "53", // feet
+        "length": "53",
         "weight": "35,000",
         "f/p": "Full",
         "date_posted": "2022-04-24T22:42:42.937Z",
@@ -90,14 +82,12 @@
         "reference_number": "217251"
     },
     {
-        "id" : "5",
         "company": "Odyssey Logistics",
         "origin": "Channahon, IL",
         "destination": "La Porte, TX",
-        // "deadhead_miles" : 150,
         "total_miles": 1040,
         "equipment": "Tanker",
-        "length": "43", // feet
+        "length": "43",
         "weight": "35,000",
         "f/p": "Full",
         "date_posted": "2022-04-24T23:02:06.185Z",
