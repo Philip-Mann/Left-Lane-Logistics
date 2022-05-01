@@ -1,7 +1,7 @@
 {
   "name": "left-lane-loadboard",
   "version": "1.0.0",
-  "description": "a starter react-node template for Philip",
+  "description": "a mock loadboard for truckers",
   "main": "server.js",
   "scripts": {
     "build": "cd react-ui/ && npm install && npm run build",
